@@ -7,16 +7,19 @@
 A blockchain is a decentralized digital public ledger. Broken down, that means the blockchain is a record of all transactions made on a specific network, no single entity has control over the blockchain, the blockchain exists solely in the digital realm, and anyone can view, make changes to, or store data on the blockchain at any time (it's an open and transparent network).
 
 .
+
 **2. Explain what a Smart Contract is. You can read this to help you, but you don't have to: https://www.ibm.com/topics/smart-contracts**
 
 A Smart Contract is a program (kind of like a middleman), or "rulebook," that a developer makes on a blockchain so that users can interact with/do certain things on the blockchain.
 
 .
+
 **3. Explain the difference between a script and a transaction.**
 
 A transaction modifies data on a blockchain and costs money (gas), whereas scripts read data from a blockchain and are free.
 
 .
+
 **4. What is the difference between Testnet and Mainnet? When would you develop on each?**
 
 Testnet is an environment/blockchain where everything is fake, and you would develop on Testnet when you're just testing out the bugs in your smart contract or DApp. It's okay if you mess up on Testnet because no one cares, there's no real money involved. Testnet is for testing unfinished products.

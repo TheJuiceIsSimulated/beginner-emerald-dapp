@@ -1,6 +1,6 @@
 # Emerald DApp Course Quest Submissions
 
-## Chapter 1 Day 1
+## Chapter 1 Day 1 (Day 1)
 
 **1. Explain what the Blockchain is in your own words. You can read this to help you, but you don't have to: https://www.investopedia.com/terms/b/blockchain.asp**
 
@@ -26,11 +26,11 @@ Testnet is an environment/blockchain where everything is fake, and you would dev
 
 Mainnet is an environment/blockchain where everything is real, and you would only develop on Mainnet when you want to make permanent changes to your smart contracts or DApps on the blockchain. If you mess up on Mainnet, that's usually very bad because there is real money involved, therefore people care. Mainnet is for finished products.
 
-## Chapter 1 Day 2
+## Chapter 1 Day 2 (Day 2)
 
 NO QUESTS!!!
 
-## Chapter 2 Day 1
+## Chapter 2 Day 1 (Day 3)
 
 **1. What is the difference between frontend and backend? Can you provide a real life example (you can't use the one in this chapter)?**
 
@@ -64,7 +64,7 @@ Global styling is a CSS file that applies to EVERYTHING and will affect everythi
 
 https://github.com/TheJuiceIsSimulated/beginner-emerald-dapp
 
-## Chapter 2 Day 2 
+## Chapter 2 Day 2 (Day 4)
 
 **1. Change the color of "Emerald DApp" to whatever color you want**
 
@@ -96,28 +96,28 @@ https://github.com/TheJuiceIsSimulated/beginner-emerald-dapp
   
 ![image](https://user-images.githubusercontent.com/104703860/185214614-d06b0ccd-af43-4d8b-b219-1d42e7d652ff.png)
 
-## Chapter 2 Day 3
+## Chapter 2 Day 3 (Day 5)
 
 
 
-## Chapter 2 Day 4
+## Chapter 2 Day 4 (Day 6)
 
-## Chapter 3 Day 1
+## Chapter 3 Day 1 (Day 7)
 
-## Chapter 3 Day 2
+## Chapter 3 Day 2 (Day 8)
 
-## Chapter 3 Day 3
+## Chapter 3 Day 3 (Day 9)
 
-## Chapter 4 Day 1
+## Chapter 4 Day 1 (Day 10)
 
-## Chapter 4 Day 2
+## Chapter 4 Day 2 (Day 11)
 
-## Chapter 4 Day 3
+## Chapter 4 Day 3 (Day 12)
 
-## Chapter 4 Day 4
+## Chapter 4 Day 4 (Day 13)
 
-## Chapter 5 Day 1
+## Chapter 5 Day 1 (Day 14)
 
-## Chapter 5 Day 1
+## Chapter 5 Day 1 (Day 15)
 
-## Chapter 5 Day 2
+## Chapter 5 Day 2 (Day 16)

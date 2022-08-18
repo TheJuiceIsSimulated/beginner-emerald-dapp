@@ -154,13 +154,67 @@ https://github.com/TheJuiceIsSimulated/beginner-emerald-dapp
 
 ***ANSWERS***
 
+#1-3
 
+![image](https://user-images.githubusercontent.com/104703860/185494541-a022b796-8c49-4143-9faf-2afbbbb759e2.png)
+
+#4
+
+![image](https://user-images.githubusercontent.com/104703860/185494608-1bbe530b-5f65-40a6-b4fc-9d8df7890b9c.png)
 
 ## Chapter 3 Day 1 (Day 7)
 
+**1. Deploy a contract to account 0x03 called "JacobTucker". Inside that contract, declare a constant variable named is, and make it have type String. Initialize it to "the best" when your contract gets deployed.**
+
+
+
+.
+
+**2. Check that your variable is actually equals "the best" by executing a script to read that variable. Include a screenshot of the output.**
+
 ## Chapter 3 Day 2 (Day 8)
 
+**1. Explain why we wouldn't call `changeGreeting` in a script.**
+
+
+
+.
+
+**2. What does the `AuthAccount` mean in the `prepare` phase of the transaction?**
+
+
+
+.
+
+**3. What is the difference between the `prepare` phase and the `execute` phase in the transaction?**
+
+
+
+.
+
+**4. This is the hardest quest so far, so if it takes you some time, do not worry! I can help you in the Discord if you have questions.**
+
+* Add two new things inside your contract:
+  * A variable named `myNumber` that has type `Int` (set it to 0 when the contract is deployed)
+  * A function named `updateMyNumber` that takes in a new number named `newNumber` as a parameter that has type `Int` and updates `myNumber` to be `newNumber`
+* Add a script that reads `myNumber` from the contract
+* Add a transaction that takes in a parameter named `myNewNumber` and passes it into the `updateMyNumber` function. Verify that your number changed by running the script again.
+
 ## Chapter 3 Day 3 (Day 9)
+
+**1. Create a new smart contract in Cadence that has at least the following two things:**
+
+* A variable to hold a value (like a number or a piece of text)
+* A function to change that variable
+
+**After, deploy that contract to the same testnet account you generated today.**
+
+**2. Send a screenshot of you reading the variable from your new contract using the Flow CLI**
+**3. Send a screenshot of you changing the variable from your new contract using the Flow CLI**
+**4. Send a screenshot of you reading your changed variable from your new contract using the Flow CLI**
+**5. Go to https://flow-view-source.com/testnet/. Where it says "Account", paste in the Flow address you generated and click "Go". On the left hand side, you should see your "HelloWorld" contract and your new contract. Isn't it so cool to see them live on Testnet? Then, send the URL to the page.**
+
+* EXAMPLE: https://flow-view-source.com/testnet/account/0x90250c4359cebac7/
 
 ## Chapter 4 Day 1 (Day 10)
 

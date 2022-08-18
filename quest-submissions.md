@@ -166,29 +166,31 @@ https://github.com/TheJuiceIsSimulated/beginner-emerald-dapp
 
 **1. Deploy a contract to account 0x03 called "JacobTucker". Inside that contract, declare a constant variable named is, and make it have type String. Initialize it to "the best" when your contract gets deployed.**
 
-
+![image](https://user-images.githubusercontent.com/104703860/185513095-87fc8f99-2595-4459-a05f-755969856b3c.png)
 
 .
 
 **2. Check that your variable is actually equals "the best" by executing a script to read that variable. Include a screenshot of the output.**
 
+![image](https://user-images.githubusercontent.com/104703860/185513126-49a2193f-ed74-4e5b-94c7-ed1aa458f2f8.png)
+
 ## Chapter 3 Day 2 (Day 8)
 
 **1. Explain why we wouldn't call `changeGreeting` in a script.**
 
-
+We wouldn't call `changeGreeting` in a script because scripts are only for reading data on the blockchain, not changing data on the blockchain. We would have to use a transaction if we wanted to call `changeGreeting` and change data on the blockchain.
 
 .
 
 **2. What does the `AuthAccount` mean in the `prepare` phase of the transaction?**
 
-
+In the `prepare` phase of the transaction, the `AuthAccount` is a type in Cadence that is being called
 
 .
 
 **3. What is the difference between the `prepare` phase and the `execute` phase in the transaction?**
 
-
+The `prepare` phase in a transaction 
 
 .
 

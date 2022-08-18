@@ -84,6 +84,10 @@ https://github.com/TheJuiceIsSimulated/beginner-emerald-dapp
 
 **Take a screenshot of your changes (both the code and the result) and upload it to your quests**
 
+.
+
+***ANSWERS***
+
 #1, #2, #4b
   
 ![image](https://user-images.githubusercontent.com/104703860/185213277-b7adee7b-10bd-4925-abcf-26c6d270feb9.png)
@@ -98,9 +102,59 @@ https://github.com/TheJuiceIsSimulated/beginner-emerald-dapp
 
 ## Chapter 2 Day 3 (Day 5)
 
+**1. In this part, we will be adding another button and changing up some styling.**
+* Wrap the `<button>` tag we added inside of a `<div>`. Add a `className` called `styles.flex` to that `<div>`. Make sure the `<button>` is inside of it.
+* Then, add another `<button>` inside the `<div>` tag and put "Goodbye" inside of it.
+* In `./styles/Home.module.css`, add a new style for the "flex" class, and inside of it, add one line: `display: flex`.
+* Your page should now look like this:
 
+![image](https://user-images.githubusercontent.com/104703860/185459450-3e555c4a-1b43-406a-a46c-45965814e556.png)
+
+**Here is the box model for what your code should look like:**
+
+![image](https://user-images.githubusercontent.com/104703860/185459491-f72780a0-9b8a-4c91-8184-1c856d6ec1af.png)
+
+**2. Now we're going to add an action to your new button.**
+
+* To your second button, add an onClick handler and call a function named printGoodbye.
+* Define a new function called printGoodbye under the printHello function
+* Make it console.log "Goodbye"
+
+**To submit your quests, take a picture of both the screen and the console logs in the developer console.**
+
+.
+
+***ANSWERS***
+
+#1 3rd Bullet Point (Not sure if this code is correct)
+
+![image](https://user-images.githubusercontent.com/104703860/185460540-cef38a47-0260-42b5-a1dd-eb230b88efe4.png)
+
+#1-#2
+
+![image](https://user-images.githubusercontent.com/104703860/185461694-24702e7a-7919-4723-b852-fce352367df9.png)
+
+#1-#2
+
+![image](https://user-images.githubusercontent.com/104703860/185462098-86ec05d4-ea7d-48ef-9360-505d8a153194.png)
 
 ## Chapter 2 Day 4 (Day 6)
+
+**1. Change the `printHello` function to be called `runTransaction`.**
+
+**2. Change the "Hello" text inside the button to "Run Transaction".**
+
+**3. Inside the `runTransaction` function, add some code to console log your `newGreeting` variable to the developer console.**
+
+**4. Go back to your webpage, type something into the input box, and press "Run Transaction". Open your developer console and you will see some thing being printed!**
+
+**To upload your quests, show us your `./pages/index.js` file and take a screenshot of your `newGreeting` being printed to the developer console.**
+
+.
+
+***ANSWERS***
+
+
 
 ## Chapter 3 Day 1 (Day 7)
 

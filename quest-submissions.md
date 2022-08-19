@@ -116,9 +116,9 @@ https://github.com/TheJuiceIsSimulated/beginner-emerald-dapp
 
 **2. Now we're going to add an action to your new button.**
 
-* To your second button, add an onClick handler and call a function named printGoodbye.
-* Define a new function called printGoodbye under the printHello function
-* Make it console.log "Goodbye"
+* To your second button, add an `onClick` handler and call a function named `printGoodbye`.
+* Define a new function called `printGoodbye` under the `printHello` function
+* Make it `console.log` "Goodbye"
 
 **To submit your quests, take a picture of both the screen and the console logs in the developer console.**
 
@@ -178,19 +178,19 @@ https://github.com/TheJuiceIsSimulated/beginner-emerald-dapp
 
 **1. Explain why we wouldn't call `changeGreeting` in a script.**
 
-We wouldn't call `changeGreeting` in a script because scripts are only for reading data on the blockchain, not changing data on the blockchain. We would have to use a transaction if we wanted to call `changeGreeting` and change data on the blockchain.
+We wouldn't call `changeGreeting` in a script because scripts are only for reading/viewing data on the blockchain, not changing/modifying data on the blockchain. We would have to use a transaction if we wanted to call `changeGreeting` and change/modify data on the blockchain.
 
 .
 
 **2. What does the `AuthAccount` mean in the `prepare` phase of the transaction?**
 
-In the `prepare` phase of the transaction, the `AuthAccount` is a type in Cadence that is being called
+In the `prepare` phase of the transaction, the `AuthAccount` is a type in Cadence that is being called when you press the "Approve" button on a transaction and then accesses the data in your account. 
 
 .
 
 **3. What is the difference between the `prepare` phase and the `execute` phase in the transaction?**
 
-The `prepare` phase in a transaction 
+The `prepare` phase in a transaction accesses the information/data in your account, whereas the `execute` phases calls functions and does stuff to change the data on the blockchain (in the smart contract you're applying the transaction to).
 
 .
 
@@ -199,8 +199,18 @@ The `prepare` phase in a transaction
 * Add two new things inside your contract:
   * A variable named `myNumber` that has type `Int` (set it to 0 when the contract is deployed)
   * A function named `updateMyNumber` that takes in a new number named `newNumber` as a parameter that has type `Int` and updates `myNumber` to be `newNumber`
+
+![image](https://user-images.githubusercontent.com/104703860/185518112-8f32d53a-17bb-46f9-851a-625daaa7cb32.png)
+
 * Add a script that reads `myNumber` from the contract
+
+![image](https://user-images.githubusercontent.com/104703860/185518161-cd9d92db-818f-433e-a1a1-7c1284a559b7.png)
+
 * Add a transaction that takes in a parameter named `myNewNumber` and passes it into the `updateMyNumber` function. Verify that your number changed by running the script again.
+
+![image](https://user-images.githubusercontent.com/104703860/185518182-2c16f953-5648-4ea9-8ba1-804d02bad691.png)
+
+![image](https://user-images.githubusercontent.com/104703860/185518190-21a878fd-aa57-416a-b11b-e6e7a9f2e747.png)
 
 ## Chapter 3 Day 3 (Day 9)
 

@@ -257,6 +257,25 @@ https://flow-view-source.com/testnet/account/0x5eedf13288966e43
 
 ## Chapter 4 Day 1 (Day 10)
 
+1. How did we get the address of the user? Please explain in words and then in code.
+
+We get the address of the user by 
+
+.
+2. What do `fcl.authenticate` and `fcl.unauthenticate` do?
+
+.
+3. Why did we make a `config.js` file? What does it do?
+
+.
+4. What does our `useEffect` do?
+
+.
+5. How do we import FCL?
+
+.
+6. What does `fcl.currentUser.subscribe(setUser);` do?
+
 ## Chapter 4 Day 2 (Day 11)
 
 ## Chapter 4 Day 3 (Day 12)

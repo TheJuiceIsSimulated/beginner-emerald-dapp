@@ -219,25 +219,41 @@ The `prepare` phase in a transaction accesses the information/data in your accou
 * A variable to hold a value (like a number or a piece of text)
 * A function to change that variable
 
+![image](https://user-images.githubusercontent.com/104703860/185773210-60b46989-4ba9-46d6-9c00-4b7639d271e3.png)
+
 **After, deploy that contract to the same testnet account you generated today.**
+
+![image](https://user-images.githubusercontent.com/104703860/185773223-ae1184d7-c535-4d01-a884-abba506bcc22.png)
 
 .
 
 **2. Send a screenshot of you reading the variable from your new contract using the Flow CLI**
 
+![image](https://user-images.githubusercontent.com/104703860/185773320-ddf70684-1774-485e-96ca-abd43c1d396e.png)
+
+![image](https://user-images.githubusercontent.com/104703860/185773323-d996e350-b4ed-46a2-b231-036f5ea5eacd.png)
+
 .
 
 **3. Send a screenshot of you changing the variable from your new contract using the Flow CLI**
 
+![image](https://user-images.githubusercontent.com/104703860/185773368-62f274a0-18b6-42b0-b0e0-a11d5440d847.png)
+
+![image](https://user-images.githubusercontent.com/104703860/185773480-6785be9f-c147-4994-9d80-0d70586fce59.png)
+
 .
 
 **4. Send a screenshot of you reading your changed variable from your new contract using the Flow CLI**
+
+![image](https://user-images.githubusercontent.com/104703860/185773539-9cf83079-ca69-4e99-ad09-517b7075f620.png)
 
 .
 
 **5. Go to https://flow-view-source.com/testnet/. Where it says "Account", paste in the Flow address you generated and click "Go". On the left hand side, you should see your "HelloWorld" contract and your new contract. Isn't it so cool to see them live on Testnet? Then, send the URL to the page.**
 
 * EXAMPLE: https://flow-view-source.com/testnet/account/0x90250c4359cebac7/
+
+https://flow-view-source.com/testnet/account/0x5eedf13288966e43
 
 ## Chapter 4 Day 1 (Day 10)
 

@@ -259,7 +259,7 @@ https://flow-view-source.com/testnet/account/0x5eedf13288966e43
 
 1. How did we get the address of the user? Please explain in words and then in code.
 
-We get the address of the user by 
+We get the address of the user through the `user` variable, since the address of the user is stored in the `user`variable.
 
 .
 

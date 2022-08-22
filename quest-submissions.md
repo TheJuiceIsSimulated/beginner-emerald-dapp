@@ -255,19 +255,27 @@ The `prepare` phase in a transaction accesses the information/data in your accou
 
 https://flow-view-source.com/testnet/account/0x5eedf13288966e43
 
-## Chapter 4 Day 1 (Day 10)
+## Chapter 4 Day 1 (Day 10) THE QUESTS FOR THIS DAY WERE A LITTLE DIFFICULT!
 
 1. How did we get the address of the user? Please explain in words and then in code.
 
-We get the address of the user through the `user` variable, since the address of the user is stored in the `user` variable.
+We get the address of the user through the `user` variable, since the address of the user is stored in the `user` variable. In code, we get the address of the user by coding `fcl.currentUser.subscribe(setUser)`.
+
+**QUESTION:** Is this answer correct? I was/still am confused on how we got the address of the user.
 
 .
 
 2. What do `fcl.authenticate` and `fcl.unauthenticate` do?
 
+The logic `fcl.authenticate` in the `handleAuthentication` function makes sure that the user logs in to our DApp if the user is logged out. The logic `fcl.unauthenticate`in the `handleAuthentication` function makes sure that the user logs out of our DApp if they are logged in.
+
 .
 
 3. Why did we make a `config.js` file? What does it do?
+
+We made a `config.js` file so we could connect our DApp to the Flow Testnet; this file lets us do blockchain stuff, like sending transactions, executing scripts & logging into the DApp with Blocto & Lilico Wallet, directly from our frontend code. 
+
+**QUESTION:** Why is it beneficial to do blockchain stuff directly from our frontend code?
 
 .
 
@@ -281,15 +289,21 @@ We get the address of the user through the `user` variable, since the address of
 
 We import the Flow Client Library by first installing it by running the command `npm install @onflow/fcl` in the terminal, then by writing the code `import { config } from "@onflow/fcl";` in our `config.js` file.
 
+**QUESTION:** Is this answer correct? I was/still am unsure how to explain it. 
+
 .
 
 6. What does `fcl.currentUser.subscribe(setUser);` do?
 
-`fcl.currentUser.subscribe(setUser);` 
+`fcl.currentUser.subscribe(setUser);` makes sure the `user` variable retains its value even if the page is refreshed.
+
+**QUESTION:** Why is it important that the `user` variable retains its value even if the page is refreshed? Is it because it's convinient so the user doesn't have to keep logging back in every time the page is refreshed?
 
 .
 
 ## Chapter 4 Day 2 (Day 11)
+
+
 
 ## Chapter 4 Day 3 (Day 12)
 

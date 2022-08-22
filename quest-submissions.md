@@ -259,7 +259,7 @@ https://flow-view-source.com/testnet/account/0x5eedf13288966e43
 
 1. How did we get the address of the user? Please explain in words and then in code.
 
-We get the address of the user through the `user` variable, since the address of the user is stored in the `user`variable.
+We get the address of the user through the `user` variable, since the address of the user is stored in the `user` variable.
 
 .
 
@@ -273,13 +273,21 @@ We get the address of the user through the `user` variable, since the address of
 
 4. What does our `useEffect` do?
 
+`useEffect` is a function that runs every time something that is put in the `[]` brackets happens in our DApp. In this case, because the `[]` brackets are empty, it means make sure the `user` variable keeps its value every time the DApp page is refreshed (In code, this means run `fcl.currentUser.subscribe(setUser)` every time the DApp page is refreshed.). 
+
 .
 
 5. How do we import FCL?
 
+We import the Flow Client Library by first installing it by running the command `npm install @onflow/fcl` in the terminal, then by writing the code `import { config } from "@onflow/fcl";` in our `config.js` file.
+
 .
 
 6. What does `fcl.currentUser.subscribe(setUser);` do?
+
+`fcl.currentUser.subscribe(setUser);` 
+
+.
 
 ## Chapter 4 Day 2 (Day 11)
 

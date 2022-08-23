@@ -364,6 +364,16 @@ I DON'T KNOW WHY IT'S EXECUTING TWICE UPON REFRESH IN THE DEV CONSOLE & I DON'T 
 
 ## Chapter 4 Day 3 (Day 12)
 
+**1. Write a function that executes a script with all the Cadence types that we reviewed today. Call the script when the page refreshes. Return something random from the Cadence script, and console log it to prove to me your script actually worked.**
+
+![image](https://user-images.githubusercontent.com/104703860/186069736-47261317-9e2f-4c47-8d5c-7402d9727ac4.png)
+
+![image](https://user-images.githubusercontent.com/104703860/186069757-63712a4e-16a6-434a-9609-230be8773912.png)
+
+I DIDN'T KNOW THE SYNTAX FOR HOW TO RETURN SOMETHING RANDOM FROM THE CADENCE SCRIPT, SO I KEEP ONLY GETTING THE RESPONSE "null" FROM THE DEV CONSOLE
+
+![image](https://user-images.githubusercontent.com/104703860/186069873-6b1240cb-8b38-44d8-a3f8-aa4fec8f5d1f.png)
+
 ## Chapter 4 Day 4 (Day 13)
 
 ## Chapter 5 Day 1 (Day 14)

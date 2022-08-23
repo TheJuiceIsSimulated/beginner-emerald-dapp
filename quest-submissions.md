@@ -257,7 +257,7 @@ https://flow-view-source.com/testnet/account/0x5eedf13288966e43
 
 ## Chapter 4 Day 1 (Day 10) THE QUESTS FOR THIS DAY WERE A LITTLE DIFFICULT!
 
-1. How did we get the address of the user? Please explain in words and then in code.
+**1. How did we get the address of the user? Please explain in words and then in code.**
 
 We get the address of the user through the `user` variable, since the address of the user is stored in the `user` variable. In code, we get the address of the user by coding `fcl.currentUser.subscribe(setUser)`.
 
@@ -265,13 +265,13 @@ We get the address of the user through the `user` variable, since the address of
 
 .
 
-2. What do `fcl.authenticate` and `fcl.unauthenticate` do?
+**2. What do `fcl.authenticate` and `fcl.unauthenticate` do?**
 
 The logic `fcl.authenticate` in the `handleAuthentication` function makes sure that the user logs in to our DApp if the user is logged out. The logic `fcl.unauthenticate`in the `handleAuthentication` function makes sure that the user logs out of our DApp if they are logged in.
 
 .
 
-3. Why did we make a `config.js` file? What does it do?
+**3. Why did we make a `config.js` file? What does it do?**
 
 We made a `config.js` file so we could connect our DApp to the Flow Testnet; this file lets us do blockchain stuff, like sending transactions, executing scripts & logging into the DApp with Blocto & Lilico Wallet, directly from our frontend code. 
 
@@ -279,13 +279,13 @@ We made a `config.js` file so we could connect our DApp to the Flow Testnet; thi
 
 .
 
-4. What does our `useEffect` do?
+**4. What does our `useEffect` do?**
 
 `useEffect` is a function that runs every time something that is put in the `[]` brackets happens in our DApp. In this case, because the `[]` brackets are empty, it means make sure the `user` variable keeps its value every time the DApp page is refreshed (In code, this means run `fcl.currentUser.subscribe(setUser)` every time the DApp page is refreshed.). 
 
 .
 
-5. How do we import FCL?
+**5. How do we import FCL?**
 
 We import the Flow Client Library by first installing it by running the command `npm install @onflow/fcl` in the terminal, then by writing the code `import { config } from "@onflow/fcl";` in our `config.js` file.
 
@@ -293,7 +293,7 @@ We import the Flow Client Library by first installing it by running the command 
 
 .
 
-6. What does `fcl.currentUser.subscribe(setUser);` do?
+**6. What does `fcl.currentUser.subscribe(setUser);` do?**
 
 `fcl.currentUser.subscribe(setUser);` makes sure the `user` variable retains its value even if the page is refreshed.
 
@@ -301,9 +301,66 @@ We import the Flow Client Library by first installing it by running the command 
 
 .
 
-## Chapter 4 Day 2 (Day 11)
+## Chapter 4 Day 2 (Day 11) THESE ARE THE HARDEST QUESTS YET I STRUGGLED AND DIDN'T REALLY UNDERSTAND THE CODE OR THE CODE SYNTAX
 
+**1. Instead of console logging the result after the script executes, I want you to:**
+* Make a new variable named `greeting` using `useState`
+* Set the `greeting` variable to the `response` of the script call (DON'T KNOW IF I DID THIS CORRECTLY)
+* Create a `<p>` tag after the `<div className={styles.flex}>` tag
+* Put the `greeting` variable inside of that `<p>` tag. (DON'T KNOW IF I DID THIS CORRECTLY)
+* This will make the result of your script show on your webpage! It should look something like this:
 
+![image](https://user-images.githubusercontent.com/104703860/186024456-42a336b5-43e4-46bd-b612-de50afe531b4.png)
+
+**ANSWER PART 1:**
+
+![image](https://user-images.githubusercontent.com/104703860/186036464-6e082730-715d-49a4-8de6-1404340cc062.png)
+
+**ANSWER PART 2:**
+
+![image](https://user-images.githubusercontent.com/104703860/186036494-b429a5d9-182a-4301-806a-f14e9f6fbd8b.png)
+
+**ANSWER PART 3:**
+
+![image](https://user-images.githubusercontent.com/104703860/186031466-06254263-bd6f-4638-99e8-b85a8bc893d6.png)
+
+.
+
+**2a. I deployed a contract called SimpleTest to an account with an address of 0x6c0d53c676256e8c. I want you to make a button that, when clicked, executes a script to read the number variable from that contract. If you're curious, you can see the contract here: https://flow-view-source.com/testnet/account/0x6c0d53c676256e8c/contract/SimpleTest**
+
+**Submit all the code you used to call the script, and the result of the script.**
+
+CODE I USED TO CALL THE SCRIPT (3 IMAGES):
+
+![image](https://user-images.githubusercontent.com/104703860/186041023-7cbac322-e5db-4ca7-b260-a71c334558c0.png)
+
+![image](https://user-images.githubusercontent.com/104703860/186041036-4be2e1a0-ee99-4008-b8ef-01b39fe1cbc9.png)
+
+![image](https://user-images.githubusercontent.com/104703860/186041053-3aa4e47c-d5e7-4626-bf08-e76e65edca36.png)
+
+RESULT OF THE SCRIPT:
+
+![image](https://user-images.githubusercontent.com/104703860/186040689-64320dde-5c71-4d89-8f88-fe619a7faebf.png)
+
+**QUESTION:** I DON'T KNOW WHY I'M GETTING ERRORS IN THE DEV CONSOLE?
+
+.
+
+**2b. Then, I want you to remove the button, and make the script execute every time the page refreshes.**
+
+**Submit all the code you used to do this.**
+
+![image](https://user-images.githubusercontent.com/104703860/186042176-d24691b9-490e-492b-afc4-2403247a327f.png)
+
+![image](https://user-images.githubusercontent.com/104703860/186042226-80b024f3-9cd0-47ba-b71b-3a33b0174a14.png)
+
+![image](https://user-images.githubusercontent.com/104703860/186042242-99b2f75f-3f26-4319-a5ac-2fcca12f6b9a.png)
+
+I DON'T KNOW WHY IT'S EXECUTING TWICE UPON REFRESH IN THE DEV CONSOLE
+
+![image](https://user-images.githubusercontent.com/104703860/186041350-2c1cea41-268d-4451-bf9d-05adc77e9ee9.png)
+
+.
 
 ## Chapter 4 Day 3 (Day 12)
 

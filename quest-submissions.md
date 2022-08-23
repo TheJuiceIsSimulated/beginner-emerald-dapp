@@ -304,25 +304,29 @@ We import the Flow Client Library by first installing it by running the command 
 ## Chapter 4 Day 2 (Day 11) THESE ARE THE HARDEST QUESTS YET I STRUGGLED AND DIDN'T REALLY UNDERSTAND THE CODE OR THE CODE SYNTAX
 
 **1. Instead of console logging the result after the script executes, I want you to:**
-* Make a new variable named `greeting` using `useState`
-* Set the `greeting` variable to the `response` of the script call (DON'T KNOW IF I DID THIS CORRECTLY)
-* Create a `<p>` tag after the `<div className={styles.flex}>` tag
-* Put the `greeting` variable inside of that `<p>` tag. (DON'T KNOW IF I DID THIS CORRECTLY)
+* Make a new variable named `greeting` using `useState` --> FIXED IN 2ND ATTEMPT
+* Set the `greeting` variable to the `response` of the script call --> FIXED IN 2ND ATTEMPT
+* Create a `<p>` tag after the `<div className={styles.flex}>` 
+* Put the `greeting` variable inside of that `<p>` tag. --> FIXED IN 2ND ATTEMPT
 * This will make the result of your script show on your webpage! It should look something like this:
 
 ![image](https://user-images.githubusercontent.com/104703860/186024456-42a336b5-43e4-46bd-b612-de50afe531b4.png)
 
-**ANSWER PART 1:**
+**ANSWER 1ST ATTEMPT:**
 
 ![image](https://user-images.githubusercontent.com/104703860/186036464-6e082730-715d-49a4-8de6-1404340cc062.png)
 
-**ANSWER PART 2:**
-
 ![image](https://user-images.githubusercontent.com/104703860/186036494-b429a5d9-182a-4301-806a-f14e9f6fbd8b.png)
 
-**ANSWER PART 3:**
-
 ![image](https://user-images.githubusercontent.com/104703860/186031466-06254263-bd6f-4638-99e8-b85a8bc893d6.png)
+
+**ANSWER 2ND ATTEMPT:**
+
+![image](https://user-images.githubusercontent.com/104703860/186262307-138e161b-a489-42f6-863f-cdc3a3d0f9db.png)
+
+![image](https://user-images.githubusercontent.com/104703860/186262332-fd16b5e6-2782-44ca-8b53-91a21fa77de8.png)
+
+![image](https://user-images.githubusercontent.com/104703860/186262371-8e809c1b-0dbc-48c8-a24f-551d8823d7d0.png)
 
 .
 

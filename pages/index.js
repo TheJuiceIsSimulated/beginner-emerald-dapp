@@ -9,7 +9,7 @@ export default function Home() {
   const [newGreeting, setNewGreeting] = useState('');
   const [greeting, setGreeting] = useState('');
   const [newNumber, setNewNumber] = useState('');
- 
+  const [txStatus, setTxStatus] = useState('');
 
 
   async function runTransaction() {
@@ -38,8 +38,20 @@ export default function Home() {
 
     console.log("Hello! You have just run a transaction.");
     console.log("Changing the greeting to: " + newGreeting);
-    
     console.log("Here is the transactionId: " + transactionId);
+    fcl.tx(transactionId).subscribe(res => {
+      console.log(res);
+      if (res.status === 0 || res.status === 1) {
+        setTxStatus('Pending...');
+      } else if (res.status === 2) {
+        setTxStatus('Finalized...')
+      } else if (res.status === 3) {
+        setTxStatus('Executed...');
+      } else if (res.status === 4) {
+        setTxStatus('Sealed!');
+        setTimeout(() => setTxStatus('Run Transaction'), 2000);
+      }
+    })
     await fcl.tx(transactionId).onceSealed();
     executeScript();
 

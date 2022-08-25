@@ -380,8 +380,33 @@ I DIDN'T KNOW THE SYNTAX FOR HOW TO RETURN SOMETHING RANDOM FROM THE CADENCE SCR
 
 ## Chapter 4 Day 4 (Day 13)
 
+**1. I deployed a contract called SimpleTest to an account with an address of 0x6c0d53c676256e8c. I want you to make a button that, when clicked, sends a transaction to change the number variable from that contract. If you're curious, you can see the contract here: https://flow-view-source.com/testnet/account/0x6c0d53c676256e8c/contract/SimpleTest**
+
+**2. Immediately after you send the transaction, wait for the transaction to be "Sealed" just like we did today. Then, call a script to read the number from the contract. Console log the result.**
+
+**Submit all the code you used to send the transaction, and the result of the script.**
+
+CODE USED TO SEND THE TRANSACTION ATTEMPT 1:
+
+![image](https://user-images.githubusercontent.com/104703860/186556755-16e955bd-b617-43af-9a9c-9a7c4ad62390.png)
+
+![image](https://user-images.githubusercontent.com/104703860/186556777-39d1fa62-dad0-42e8-bd9e-fdd3a2aa6c98.png)
+
+![image](https://user-images.githubusercontent.com/104703860/186556789-765aea60-7817-4194-8c2f-1a1601957e33.png)
+
+![image](https://user-images.githubusercontent.com/104703860/186556805-332c9e89-0d65-4165-8036-4c1196df2fbd.png)
+
+![image](https://user-images.githubusercontent.com/104703860/186556824-e32a6362-ac01-4992-8af1-16a7dbe5a285.png)
+
+![image](https://user-images.githubusercontent.com/104703860/186556841-acf4f2bf-312b-4d66-af8d-68f78497280f.png)
+
+RESULT OF THE SCRIPT ATTEMPT 1:
+
+![image](https://user-images.githubusercontent.com/104703860/186556877-c2106fc8-43e0-4cf3-8f22-355f1af9eb33.png)
+
+![image](https://user-images.githubusercontent.com/104703860/186556907-2aab5d2e-3910-4121-86ee-87ea173912a6.png)
+
+
 ## Chapter 5 Day 1 (Day 14)
 
-## Chapter 5 Day 1 (Day 15)
-
-## Chapter 5 Day 2 (Day 16)
+## Chapter 5 Day 2 (Day 15)

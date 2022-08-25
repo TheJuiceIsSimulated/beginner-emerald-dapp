@@ -1,4 +1,4 @@
-# Emerald DApp Course Quest Submissions
+# Beginner Emerald DApp Course Quest Submissions
 
 ## Chapter 1 Day 1 (Day 1)
 

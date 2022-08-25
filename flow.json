@@ -1,0 +1,41 @@
+{
+	"emulators": {
+		"default": {
+			"port": 3569,
+			"serviceAccount": "emulator-account"
+		}
+	},
+	"contracts": {
+		"HelloWorld": "./flow/cadence/contracts/HelloWorld.cdc",
+		"IsTheJuiceWorthTheSqueeze": "./flow/cadence/contracts/IsTheJuiceWorthTheSqueeze.cdc"
+	},
+	"networks": {
+		"emulator": "127.0.0.1:3569",
+		"mainnet": "access.mainnet.nodes.onflow.org:9000",
+		"testnet": "access.devnet.nodes.onflow.org:9000"
+	},
+	"accounts": {
+		"emulator-account": {
+			"address": "f8d6e0586b0a20c7",
+			"key": "dbf9b5d2520a83406034a418a063e1a69a6380875eeb1a567f29555d8b78231a"
+		},
+		"testnet-account": {
+			"address": "0x5eedf13288966e43",
+			"key": {
+			  "type": "hex",
+			  "index": 0,
+			  "signatureAlgorithm": "ECDSA_P256",
+			  "hashAlgorithm": "SHA3_256",
+			  "privateKey": "706db0a31cf7e0aed582e6926b2667f5d9d28a4c411780101be566bfa837a5a8"
+			}
+		}
+	},
+	"deployments": {
+		"testnet": {
+			"testnet-account": [
+			  "HelloWorld",
+			  "IsTheJuiceWorthTheSqueeze"
+			]
+		  }
+	}
+}

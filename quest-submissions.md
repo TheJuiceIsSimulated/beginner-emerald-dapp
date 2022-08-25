@@ -386,6 +386,10 @@ I DIDN'T KNOW THE SYNTAX FOR HOW TO RETURN SOMETHING RANDOM FROM THE CADENCE SCR
 
 **Submit all the code you used to send the transaction, and the result of the script.**
 
+CODE USED TO SEND THE TRANSACTION ATTEMPT 2:
+
+
+
 CODE USED TO SEND THE TRANSACTION ATTEMPT 1:
 
 ![image](https://user-images.githubusercontent.com/104703860/186556755-16e955bd-b617-43af-9a9c-9a7c4ad62390.png)
@@ -399,6 +403,10 @@ CODE USED TO SEND THE TRANSACTION ATTEMPT 1:
 ![image](https://user-images.githubusercontent.com/104703860/186556824-e32a6362-ac01-4992-8af1-16a7dbe5a285.png)
 
 ![image](https://user-images.githubusercontent.com/104703860/186556841-acf4f2bf-312b-4d66-af8d-68f78497280f.png)
+
+RESULT OF THE SCRIPT ATTEMPT 2:
+
+
 
 RESULT OF THE SCRIPT ATTEMPT 1:
 

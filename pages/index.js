@@ -9,6 +9,8 @@ export default function Home() {
   const [newGreeting, setNewGreeting] = useState('');
   const [greeting, setGreeting] = useState('');
   const [newNumber, setNewNumber] = useState('');
+ 
+
 
   async function runTransaction() {
 
@@ -34,42 +36,44 @@ export default function Home() {
       limit: 999
     })
 
-  }
-    
-    async function runTransactionTwo() {
-      const transactionId = await fcl.mutate({
-        cadence: `
-        import SimpleTest from 0x6c0d53c676256e8c
-    
-        transaction(myNewNumber: Int) {
-    
-          prepare(signer: AuthAccount) {}
-    
-          execute {
-            SimpleTest.updateNumber(newNumber: myNewNumber)
-          }
-        }
-        `,
-        args: (arg, t) => [
-          arg(newNumber, t.Int)
-        ],
-        proposer: fcl.authz,
-        payer: fcl.authz,
-        authorizations: [fcl.authz],
-        limit: 999
-      })
-
     console.log("Hello! You have just run a transaction.");
     console.log("Changing the greeting to: " + newGreeting);
+    
     console.log("Here is the transactionId: " + transactionId);
-  
     await fcl.tx(transactionId).onceSealed();
     executeScript();
+
+  }
+    
+
+  async function runTransactionTwo() {
+    const transactionId = await fcl.mutate({    
+      cadence: `
+      import SimpleTest from 0x6c0d53c676256e8c
+  
+      transaction(myNewNumber: Int) {
+  
+        prepare(signer: AuthAccount) {}
+  
+        execute {
+          SimpleTest.updateNumber(newNumber: myNewNumber)
+        }
+      }
+      `,
+      args: (arg, t) => [
+        arg(newNumber, t.Int)
+      ],
+      proposer: fcl.authz,
+      payer: fcl.authz,
+      authorizations: [fcl.authz],
+      limit: 999
+    })
 
     await fcl.tx(transactionId).onceSealed();
     executeScriptTwo();
 
   }
+
 
   async function executeScript() {
     const response = await fcl.query({
@@ -86,6 +90,7 @@ export default function Home() {
     setGreeting(response);
   }
 
+
   async function executeScriptTwo() {
     const response = await fcl.query({
       cadence: `
@@ -100,6 +105,7 @@ export default function Home() {
   
     console.log("Response from Script Two: " + response);
   }
+
 
   async function executeScriptThree() {
     const response = await fcl.query({
@@ -180,7 +186,8 @@ export default function Home() {
   <p>{greeting}</p>
   <div className={styles.flex}>
     <input onChange={(e) => setNewGreeting(e.target.value)} placeholder="Is it, Punk?" />
-    <button onClick={runTransaction}>Run Transaction</button>
+    <button onClick={runTransaction}>txStatus</button>
+    <input onChange={(e) => setNewNumber(e.target.value)} placeholder="set a new number" />
     <button onClick={runTransactionTwo}>Run Transaction Two</button>
   </div>
 </main>

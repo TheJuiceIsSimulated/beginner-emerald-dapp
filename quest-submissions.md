@@ -406,7 +406,6 @@ RESULT OF THE SCRIPT ATTEMPT 1:
 
 ![image](https://user-images.githubusercontent.com/104703860/186556907-2aab5d2e-3910-4121-86ee-87ea173912a6.png)
 
-
 ## Chapter 5 Day 1 (Day 14)
 
 ## Chapter 5 Day 2 (Day 15)
